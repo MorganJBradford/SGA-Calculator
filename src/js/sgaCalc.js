@@ -23,7 +23,7 @@ export class SuperGalacticAgeCalculator {
 
   lifeExpectancy(){
     let num = parseFloat((78.8 - this.age).toFixed(1));
-    this.planetExpectancy = `your estimated life expectancy is ${num} years.`;
+    this.planetExpectancy = `your estimated life expectancy is ${num} Earth years.`;
   }
 
   mercuryLifeExpectancy(){
