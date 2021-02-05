@@ -8,6 +8,6 @@ export class SuperGalacticAgeCalculator {
   }
 
   venusYears(){
-    
+    return parseFloat((this.age * 0.62).toFixed(2));
   }
 };
