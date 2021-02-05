@@ -34,7 +34,7 @@ test('should correctly return this.age * 11.86', () => {
 
 test('should correctly return life expectancy for this.age in Earth years', () => {
     calc.lifeExpectancy();
-    expect(calc.planetExpectancy).toEqual(56.8);
+    expect(calc.planetExpectancy).toEqual("your estimated life expectancy is 56.8 years.");
   });
 
 test('should correctly return life expectancy for this.age in Mercury years', () => {
@@ -55,11 +55,5 @@ test('should correctly return life expectancy for this.age in Mars years', () =>
 test('should correctly return life expectancy for this.age in Jupiter years', () => {
     calc.jupiterLifeExpectancy();
     expect(calc.planetExpectancy).toEqual(673.7);
-  });
-
-test('should correctly return years lived beyond Earth life expectancy', () => {
-    calc = new SuperGalacticAgeCalculator(80);
-    calc.lifeExpectancy();
-    expect(calc.planetExpectancy).toEqual(1.2);
   });
 });
