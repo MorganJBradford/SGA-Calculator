@@ -46,7 +46,8 @@ export class SuperGalacticAgeCalculator {
 
   jupiterLifeExpectancy(){
     this.jupiterYears();
-    this.planetExpectancy = parseFloat((934.6 - this.planetYears).toFixed(1));
+    let num = parseFloat((934.6 - this.planetYears).toFixed(1));
+    this.planetExpectancy = `your estimated life expectancy is ${num} Jupiter years.`
   }
 };
 
