@@ -44,7 +44,7 @@ test('should correctly return life expectancy for this.age in Mercury years', ()
 
 test('should correctly return life expectancy for this.age in Venus years', () => {
     calc.venusLifeExpectancy();
-    expect(calc.planetExpectancy).toEqual(35.3);
+    expect(calc.planetExpectancy).toEqual("your estimated life expectancy is 35.3 Venus years.");
   });
 
 test('should correctly return life expectancy for this.age in Mars years', () => {
