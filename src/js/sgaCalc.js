@@ -1,4 +1,5 @@
 export class SuperGalacticAgeCalculator {
-  constructor(){
+  constructor(age){
+    this.age = age;
   }
 };
