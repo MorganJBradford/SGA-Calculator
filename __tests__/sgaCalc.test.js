@@ -54,6 +54,6 @@ test('should correctly return life expectancy for this.age in Mars years', () =>
 
 test('should correctly return life expectancy for this.age in Jupiter years', () => {
     calc.jupiterLifeExpectancy();
-    expect(calc.planetExpectancy).toEqual(673.7);
+    expect(calc.planetExpectancy).toEqual("your estimated life expectancy is 673.7 Jupiter years.");
   });
 });
