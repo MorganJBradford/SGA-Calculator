@@ -6,4 +6,8 @@ export class SuperGalacticAgeCalculator {
   marsYears(){
     return parseFloat((this.age * 0.24).toFixed(2));
   }
+
+  venusYears(){
+    
+  }
 };
