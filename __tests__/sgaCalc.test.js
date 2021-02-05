@@ -12,10 +12,14 @@ test('should correctly create an instance of SuperGalacticAgeCalculator', () => 
   });
 
 test('should correctly return this.age * 0.24', () => {
-    expect(calc.marsYears()).toEqual(5.28);
+    expect(calc.mercuryYears()).toEqual(5.28);
   });
 
 test('should correctly return this.age * 0.62', () => {
     expect(calc.venusYears()).toEqual(13.64);
+  });
+
+test('should correctly return this.age * 1.88', () => {
+    expect(calc.marsYears()).toEqual(41.36);
   });
 });
