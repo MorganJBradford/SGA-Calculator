@@ -31,18 +31,18 @@ export class SuperGalacticAgeCalculator {
   }
     
   venusLifeExpectancy(){
-    let age = this.venusYears();
-    return parseFloat((48.9 - age).toFixed(1));
+    this.venusYears();
+    this.planetExpectancy = parseFloat((48.9 - this.planetYears).toFixed(1));
   }
 
   marsLifeExpectancy(){
-    let age = this.marsYears();
-    return parseFloat((148.1 - age).toFixed(1));
+    this.marsYears();
+    this.planetExpectancy = parseFloat((148.1 - this.planetYears).toFixed(1));
   }
 
   jupiterLifeExpectancy(){
-    let age = this.jupiterYears();
-    return parseFloat((934.6 - age).toFixed(1));
+    this.jupiterYears();
+    this.planetExpectancy = parseFloat((934.6 - this.planetYears).toFixed(1));
   }
 };
 
