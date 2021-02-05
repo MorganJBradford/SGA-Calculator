@@ -22,4 +22,8 @@ test('should correctly return this.age * 0.62', () => {
 test('should correctly return this.age * 1.88', () => {
     expect(calc.marsYears()).toEqual(41.36);
   });
+
+test('should correctly return this.age * 11.86', () => {
+    expect(calc.jupiterYears()).toEqual(260.92);
+  });
 });
