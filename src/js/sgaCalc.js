@@ -24,7 +24,8 @@ export class SuperGalacticAgeCalculator {
   }
 
   mercuryLifeExpectancy(){
-    
+    let age = this.mercuryYears()
+    return parseFloat((18.9 - age).toFixed(1));
   }  
 };
 
