@@ -1,4 +1,4 @@
-import { SuperGalacticAgeCalculator, marsYears } from "../src/js/sgaCalc";
+import { SuperGalacticAgeCalculator } from "../src/js/sgaCalc";
 
 describe('SuperGalacticAgeCalculator', () => {
   let calc;
@@ -25,5 +25,9 @@ test('should correctly return this.age * 1.88', () => {
 
 test('should correctly return this.age * 11.86', () => {
     expect(calc.jupiterYears()).toEqual(260.92);
+  });
+
+  test('should correctly return life expectancy for this.age in earth years', () => {
+    expect(calc.lifeExpectancy()).toEqual(56.8);
   });
 });
