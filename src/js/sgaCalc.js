@@ -34,6 +34,12 @@ export class SuperGalacticAgeCalculator {
   }
 
   marsLifeExpectancy(){
+    let age = this.marsYears();
+    return parseFloat((148.1 - age).toFixed(1));
+  }
+
+  jupiterLifeExpectancy(){
+
   }  
 };
 
