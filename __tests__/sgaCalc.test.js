@@ -57,12 +57,9 @@ test('should correctly return life expectancy for this.age in Jupiter years', ()
     expect(calc.planetExpectancy).toEqual("your estimated life expectancy is 673.7 Jupiter years.");
   });
 
-  beforeEach(() => {
-    calc = new SuperGalacticAgeCalculator(80);
-  });
-
 test('should correctly return years lived beyond Earth life expectancy', () => {
+  calc = new SuperGalacticAgeCalculator(80);
     calc.lifeExpectancy();
-    expect(calc.planetExpectancy).toEqual("Wow, you have lived 1.2  Earth years longer than the average live expectancy!")
+    expect(calc.planetExpectancy).toEqual("Wow, you have lived 1.2 Earth years longer than the average live expectancy!")
   });
 });
