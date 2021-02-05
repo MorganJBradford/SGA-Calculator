@@ -54,6 +54,10 @@ export class SuperGalacticAgeCalculator {
     this.marsYears();
     let num = parseFloat((148.1 - this.planetYears).toFixed(1));
     this.planetExpectancy = `your estimated life expectancy is ${num} Mars years.`;
+    if (num < 0) {
+      num = Math.abs(num);
+      this.planetExpectancy = `Wow, you have lived ${num} Mars years longer than the average Mars life expectancy!`;
+    }
   }
 
   jupiterLifeExpectancy(){
