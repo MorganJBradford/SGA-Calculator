@@ -34,7 +34,8 @@ export class SuperGalacticAgeCalculator {
     
   venusLifeExpectancy(){
     this.venusYears();
-    this.planetExpectancy = parseFloat((48.9 - this.planetYears).toFixed(1));
+    let num = parseFloat((48.9 - this.planetYears).toFixed(1));
+    this.planetExpectancy = `your estimated life expectancy is ${num} Venus years.`;
   }
 
   marsLifeExpectancy(){
