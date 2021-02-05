@@ -14,4 +14,8 @@ export class SuperGalacticAgeCalculator {
   marsYears() {
     return parseFloat((this.age * 1.88).toFixed(2));
   }
+
+  jupiterYears() {
+    return parseFloat((this.age * 11.86).toFixed(2));
+  }
 };
