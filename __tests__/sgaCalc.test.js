@@ -27,7 +27,11 @@ test('should correctly return this.age * 11.86', () => {
     expect(calc.jupiterYears()).toEqual(260.92);
   });
 
-  test('should correctly return life expectancy for this.age in earth years', () => {
+  test('should correctly return life expectancy for this.age in Earth years', () => {
     expect(calc.lifeExpectancy()).toEqual(56.8);
+  });
+
+  test('should correctly return life expectancy for this.age in Mercury years', () => {
+    expect(calc.mercuryLifeExpectancy()).toEqual(13.6);
   });
 });

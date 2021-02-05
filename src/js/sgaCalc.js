@@ -3,10 +3,6 @@ export class SuperGalacticAgeCalculator {
     this.age = age;
   }
 
-  lifeExpectancy(){
-    return parseFloat((78.8 - this.age).toFixed(1));
-  }
-
   mercuryYears(){
     return parseFloat((this.age * 0.24).toFixed(2));
   }
@@ -22,4 +18,13 @@ export class SuperGalacticAgeCalculator {
   jupiterYears() {
     return parseFloat((this.age * 11.86).toFixed(2));
   }
+
+  lifeExpectancy(){
+    return parseFloat((78.8 - this.age).toFixed(1));
+  }
+
+  mercuryLifeExpectancy(){
+    
+  }  
 };
+
