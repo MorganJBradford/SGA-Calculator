@@ -1,31 +1,33 @@
 export class SuperGalacticAgeCalculator {
   constructor(age){
     this.age = age;
+    this.planetYears;
+    this.planetExpectancy;
   }
 
   mercuryYears(){
-    return parseFloat((this.age * 0.24).toFixed(1));
+    this.planetYears = parseFloat((this.age * 0.24).toFixed(1));
   }
 
   venusYears(){
-    return parseFloat((this.age * 0.62).toFixed(1));
+    this.planetYears = parseFloat((this.age * 0.62).toFixed(1));
   }
 
   marsYears() {
-    return parseFloat((this.age * 1.88).toFixed(1));
+    this.planetYears = parseFloat((this.age * 1.88).toFixed(1));
   }
 
   jupiterYears() {
-    return parseFloat((this.age * 11.86).toFixed(1));
+    this.planetYears = parseFloat((this.age * 11.86).toFixed(1));
   }
 
   lifeExpectancy(){
-    return parseFloat((78.8 - this.age).toFixed(1));
+    this.planetExpectancy = parseFloat((78.8 - this.age).toFixed(1));
   }
 
   mercuryLifeExpectancy(){
-    let age = this.mercuryYears();
-    return parseFloat((18.9 - age).toFixed(1));
+    this.mercuryYears();
+    this.planetExpectancy = parseFloat((18.9 - this.planetYears).toFixed(1));
   }
     
   venusLifeExpectancy(){
@@ -39,7 +41,8 @@ export class SuperGalacticAgeCalculator {
   }
 
   jupiterLifeExpectancy(){
-
-  }  
+    let age = this.jupiterYears();
+    return parseFloat((934.6 - age).toFixed(1));
+  }
 };
 
