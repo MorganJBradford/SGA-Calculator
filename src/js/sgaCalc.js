@@ -1,5 +1,4 @@
-export default class superGalacticAgeCalculator {
+export class SuperGalacticAgeCalculator {
   constructor(){
-
   }
 };
