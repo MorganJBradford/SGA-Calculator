@@ -26,7 +26,7 @@ export class SuperGalacticAgeCalculator {
     this.planetExpectancy = `your estimated life expectancy is ${num} Earth years.`;
     if (num < 0) {
       num = Math.abs(num);
-      this.planetExpectancy = `Wow, you have lived ${num} Earth years longer than the average life expectancy!`
+      this.planetExpectancy = `Wow, you have lived ${num} Earth years longer than the average life expectancy!`;
     }
   }
 
@@ -34,6 +34,10 @@ export class SuperGalacticAgeCalculator {
     this.mercuryYears();
     let num = parseFloat((18.9 - this.planetYears).toFixed(1));
     this.planetExpectancy = `your estimated life expectancy is ${num} Mercury years.`;
+    if (num < 0) {
+      num = Math.abs(num);
+      this.planetExpectancy = `Wow, you have lived ${num} Mercury years longer than the average Mercury life expectancy!`;
+    }
   }
     
   venusLifeExpectancy(){
