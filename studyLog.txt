@@ -1,0 +1,5 @@
+12:45 - 13:35 attempting to refactor
+  12:52 - 12:57: researching how to check if a num is negative: Math.abs, functions using RegEx, etc.
+  13:00 - 13:15: template literals: within functions, if they testable or not (was using the ' instead of backtick `).
+  13:15 - 13:30: testing hypotheses for refactoring tests/function.
+  13:30 - 13:35: creating and editing this document.
