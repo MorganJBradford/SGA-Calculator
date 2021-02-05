@@ -12,6 +12,6 @@ export class SuperGalacticAgeCalculator {
   }
 
   marsYears() {
-    
+    return parseFloat((this.age * 1.88).toFixed(2));
   }
 };
