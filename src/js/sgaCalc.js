@@ -44,5 +44,8 @@ export class SuperGalacticAgeCalculator {
     this.jupiterYears();
     this.planetExpectancy = parseFloat((934.6 - this.planetYears).toFixed(1));
   }
+  yearsAfterExpectancy(){
+
+  }
 };
 
