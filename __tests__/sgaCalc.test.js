@@ -5,7 +5,7 @@ describe('SuperGalacticAgeCalculator', () => {
   let calc;
 
   beforeEach(() => {
-    calc = new SuperGalacticAgeCalculator(22)
+    calc = new SuperGalacticAgeCalculator(22);
   });
 
 test('should correctly create an instance of SuperGalacticAgeCalculator', () => {    
@@ -58,8 +58,14 @@ test('should correctly return life expectancy for this.age in Jupiter years', ()
   });
 
 test('should correctly return years lived beyond Earth life expectancy', () => {
-  calc = new SuperGalacticAgeCalculator(80);
+    calc = new SuperGalacticAgeCalculator(80);
     calc.lifeExpectancy();
-    expect(calc.planetExpectancy).toEqual("Wow, you have lived 1.2 Earth years longer than the average live expectancy!")
+    expect(calc.planetExpectancy).toEqual("Wow, you have lived 1.2 Earth years longer than the average life expectancy!");
+  });
+
+test('should correctly return Mercury years lived beyond Mercury life expectancy', () => {
+    calc = new SuperGalacticAgeCalculator(80);
+    calc.mercuryLifeExpectancy();
+    expect(calc.planetExpectancy).toEqual("Wow, you have lived 0.3 Mercury years longer than the average Mercury life expectancy!");
   });
 });
