@@ -24,12 +24,13 @@ export class SuperGalacticAgeCalculator {
   }
 
   mercuryLifeExpectancy(){
-    let age = this.mercuryYears()
+    let age = this.mercuryYears();
     return parseFloat((18.9 - age).toFixed(1));
   }
     
   venusLifeExpectancy(){
-
+    let age = this.venusYears();
+    return parseFloat((48.9 - age).toFixed(1));
   }  
 };
 
