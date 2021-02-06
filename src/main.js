@@ -17,3 +17,11 @@ $("#mercury-life-expectancy").on("click", function() {
   calc.mercuryLifeExpectancy();
   $('.mercury-expectancy').text(calc.planetExpectancy);
 });
+$("#venus-years").on("click", function() {
+  calc.venusYears();
+  $('.venus-years').text(calc.planetYears);
+});
+$("#venus-life-expectancy").on("click", function() {
+  calc.venusLifeExpectancy();
+  $('.venus-expectancy').text(calc.planetExpectancy);
+});
