@@ -15,10 +15,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'sgaCalc',
       template: './src/index.html',
       inject: 'body'
-    })
+    }),
   ],
   module: {
     rules: [
