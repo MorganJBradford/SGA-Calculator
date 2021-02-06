@@ -9,6 +9,10 @@ $("#galactic-age").submit(function(event) {
   event.preventDefault();
   calc = new SuperGalacticAgeCalculator($('#age').val());
 });
+$("#earth-life-expectancy").on("click", function() {
+  calc.lifeExpectancy();
+  $('.earth-expectancy').text(calc.planetExpectancy);
+});
 $("#mercury-years").on("click", function() {
   calc.mercuryYears();
   $('.mercury-years').text(calc.planetYears);
