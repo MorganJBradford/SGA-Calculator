@@ -6,7 +6,9 @@
 
 ## Technologies Used
 
+* _HTML_
 * _JavaScript_
+* _jQuery_
 * _Jest_
 * _Webpack_
 * _eslint_
