@@ -3,8 +3,9 @@ import $ from 'jquery';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './css/styles.css';
 // import './css/styles.css';
-import { SuperGalacticAgeCalculator } from 'js/sgaCalc.js';
+import { SuperGalacticAgeCalculator } from './js/sgaCalc.js';
 
 $("#galactic-age").submit(function(event) {
   event.preventDefault();
+  let calc = new SuperGalacticAgeCalculator($('#age').val());
 });
