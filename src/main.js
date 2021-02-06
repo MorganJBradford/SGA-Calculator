@@ -25,3 +25,11 @@ $("#venus-life-expectancy").on("click", function() {
   calc.venusLifeExpectancy();
   $('.venus-expectancy').text(calc.planetExpectancy);
 });
+$("#mars-years").on("click", function() {
+  calc.marsYears();
+  $('.mars-years').text(calc.planetYears);
+});
+$("#mars-life-expectancy").on("click", function() {
+  calc.marsLifeExpectancy();
+  $('.mars-expectancy').text(calc.planetExpectancy);
+});
