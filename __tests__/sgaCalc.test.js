@@ -86,5 +86,4 @@ test('should correctly return Jupiter years lived beyond Jupiter life expectancy
     calc.jupiterLifeExpectancy();
     expect(calc.planetExpectancy).toEqual("Wow, you have lived 14.2 Jupiter years longer than the average Jupiter life expectancy!");
   });
-
 });
