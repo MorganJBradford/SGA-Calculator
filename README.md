@@ -30,17 +30,11 @@ Next, enter the following command 'git clone https://github.com/MorganJBradford/
 The terminal should return with something similar to:
 
 > Cloning into 'SGA-Calculator'...
->
 > remote: Enumerating objects: 351, done.
->
 > remote: Counting objects: 100% (351/351), done.
->
 > remote: Compressing objects: 100% (154/154), done.
->
 > remote: Total 351 (delta 185), reused 292 (delta 127), pack-reused 0
->
 > Receiving objects: 100% (351/351), 218.44 KiB | 1.63 MiB/s, done.
->
 > Resolving deltas: 100% (185/185), done.
 
 
@@ -63,17 +57,17 @@ Because I did not have a directory named SGA-Calculator, I know it downloaded su
 > npm WARN deprecated eslint-loader@3.0.0: This loader has been deprecated. Please use eslint-webpack-plugin
 > npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
 > npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
-
+> 
 > added 1030 packages, and audited 1031 packages in 6s
-
+> 
 > 39 packages are looking for funding
 >  run `npm fund` for details
-
+> 
 > 3 low severity vulnerabilities
-
+> 
 > To address all issues, run:
 >  npm audit fix --force
-
+> 
 > Run `npm audit` for details.
 
 The warning are related to newer software being available, and should not prevent the application from running.
