@@ -10,12 +10,12 @@
 * _JavaScript(ES6)_
 * _jQuery_
 * _Jest_
-* _Webpack_
+* _webpack_
 * _eslint_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_A website to calculate your galactic age in Mercury, Venus, Mars, and/or Jupiter years. You can also view your life expectancy in Earth, Mercury, Venus, Mars, and/or Jupiter years_
 
 ## Setup/Installation Requirements
 
@@ -29,8 +29,8 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+* _if you find any bugs, *please* reach out to me via my email below_
 
 ## License
 
