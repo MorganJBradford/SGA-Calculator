@@ -11,5 +11,9 @@ $("#galactic-age").submit(function(event) {
 });
 $("#mercury-years").on("click", function() {
   calc.mercuryYears();
-  $('p').text(calc.planetYears);
+  $('.mercury-years').text(calc.planetYears);
+});
+$("#mercury-life-expectancy").on("click", function() {
+  calc.mercuryLifeExpectancy();
+  $('.mercury-expectancy').text(calc.planetExpectancy);
 });
