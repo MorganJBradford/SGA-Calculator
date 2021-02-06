@@ -33,3 +33,11 @@ $("#mars-life-expectancy").on("click", function() {
   calc.marsLifeExpectancy();
   $('.mars-expectancy').text(calc.planetExpectancy);
 });
+$("#jupiter-years").on("click", function() {
+  calc.jupiterYears();
+  $('.jupiter-years').text(calc.planetYears);
+});
+$("#jupiter-life-expectancy").on("click", function() {
+  calc.jupiterLifeExpectancy();
+  $('.jupiter-expectancy').text(calc.planetExpectancy);
+});
