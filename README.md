@@ -7,7 +7,7 @@
 ## Technologies Used
 
 * _HTML_
-* _JavaScript_
+* _JavaScript(ES6)_
 * _jQuery_
 * _Jest_
 * _Webpack_
